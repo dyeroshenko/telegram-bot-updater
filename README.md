@@ -11,6 +11,7 @@ This is a simplified, custom made bot hosted on RPI Zero. Bot collects the infor
 
 
 ## Example output
+![image](https://raw.githubusercontent.com/dyeroshenko/telegram-bot-updater/main/Screenshot%202021-01-03%20at%2014.15.40.png)
 
  
 ## How to install
