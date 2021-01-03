@@ -5,7 +5,7 @@ Custom bot for daily updates sent to your Telegram chat!
 
 This is a simplified, custom made bot hosted on RPI Zero. Bot collects the information about:
 
-* Amount of registered COVID-19 cases in defined countries and calculates the amount for previous date (# of active cases one day ago - # of active cases one day ago.) For more details please check <i>services/covid_updater.py</i>. Countries object could be modified in <i>/countries.py</i>
+* Amount of registered COVID-19 cases in defined countries and calculates the amount for previous date (# of active cases one day ago - # of active cases two days ago.) For more details please check <i>services/covid_updater.py</i>. Countries object could be modified in <i>/countries.py</i>
 * Weather conditions for predefined city (hosted in <i>/city_details.py</i>)
 * Air polution level for predefined city (hosted in <i>/city_details.py</i>)
 
