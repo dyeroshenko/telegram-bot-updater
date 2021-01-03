@@ -47,6 +47,3 @@ def construct_message():
    
    base_message = f'Covid stats for {date}:\n{message}'
    return base_message
-
-
-construct_message()
