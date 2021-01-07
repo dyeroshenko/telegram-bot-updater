@@ -35,7 +35,7 @@ def get_weather(city):
 
     sunset = datetime.fromtimestamp(data['sys']['sunset']).strftime('%H:%M')
 
-    message = f"Today in Wroclaw is: *{description}*\nCurrent temperature: *{kelvin_to_celsius(current_temp)}* and feels like {kelvin_to_celsius(feels_like)}\nLow: {kelvin_to_celsius(min_temp)} and high: {kelvin_to_celsius(max_temp)}\nSunset at {sunset}"
+    message = f"Today in {city} is: *{description}*\nCurrent temperature: *{kelvin_to_celsius(current_temp)}* and feels like {kelvin_to_celsius(feels_like)}\nLow: {kelvin_to_celsius(min_temp)} and high: {kelvin_to_celsius(max_temp)}\nSunset at {sunset}"
     
     return message 
 
